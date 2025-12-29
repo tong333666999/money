@@ -1,4 +1,0 @@
-name = "money-tracker"
-compatibility_date = "2025-01-01"
-pages_build_output_dir = "."
-main = "index.html"

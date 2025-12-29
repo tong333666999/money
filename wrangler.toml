@@ -1,0 +1,22 @@
+name = "money-tracker"
+type = "javascript"
+main = "index.html"
+compatibility_date = "2025-01-01"
+
+[env.production]
+name = "money-tracker"
+routes = [
+  { pattern = "yourdomain.com", zone_name = "yourdomain.com" }
+]
+
+[build]
+command = "echo 'Static site - no build needed'"
+cwd = "."
+
+[build.upload]
+format = "service-worker"
+
+[[rules]]
+type = "Text"
+globs = ["*.html", "*.css", "*.js"]
+fallthrough = false

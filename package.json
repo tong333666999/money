@@ -1,0 +1,13 @@
+{
+  "name": "money-tracker",
+  "version": "1.0.0",
+  "description": "資產管理追蹤器 - 台幣市值統一版",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "wrangler pages deploy ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
